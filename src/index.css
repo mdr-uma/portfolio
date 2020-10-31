@@ -8,3 +8,8 @@ body {
   background-image: url("images/background.jpg");  
 }
 
+.intro img {
+  width: 20%;
+  border-radius: 100%;
+}
+
