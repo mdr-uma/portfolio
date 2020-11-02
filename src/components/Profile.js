@@ -14,7 +14,9 @@ const Profile = () => {
         <div className="intro">
             <img src={image} alt=""/>
         </div >
-        
+        <div className="img-background">
+            
+        </div>
         </>
     )
 }
