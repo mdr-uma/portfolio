@@ -24,7 +24,7 @@ body {
 }
 
 .img-background {
-  background-color: #AFA89B;
+  background-color: #afa89b85;
   width: 250px;
   height: 296px;
   position: absolute;
@@ -34,27 +34,30 @@ body {
 }
 
 #twitter {
-  width: 50px;
-  height: 50px;
-  color: deepskyblue;
+  width: 40px;
+  height: 40px;
+  color: white;
   position: absolute;
-  right: 26%;
+  right: 12%;
   top: 8%;
+  background-color: rgba(0, 191, 255, 0.774);
 }
 #git {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   color: black;
   position: absolute;
   right: 12%;
   top: 42%;
+  background-color: white;
 }
 #linkedin {
-  width: 50px;
-  height: 50px;
-  color: rgb(30, 108, 172);
+  width: 40px;
+  height: 40px;
+  color: white;
   position: absolute;
-  right: 26%;
+  right: 12%;
   bottom: 10%;
+  background-color: rgb(30, 108, 172);
 }
 
