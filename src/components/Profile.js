@@ -6,7 +6,7 @@ import { Twitter, GitHub, Linkedin } from 'react-feather'
 const Profile = () => {
     return (
         <>
-        <div className="text-left">
+        <div className="text-left intro-message">
             <h3>Hi, I’m Uma Manandhar.</h3>
             <h4>I am a Full-stack Web Developer.</h4>
             <h5>My expertise are Ruby and JavaScript.</h5>
