@@ -12,19 +12,19 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse flex-grow-0" id="navbarSupportContent">
                     <ul className="navbar-nav text-right">    
                         <li className="nav-item">
-                            <a  className="nav-link" href="#">About</a>
+                            <a style={{color:"darkred"}} className="nav-link" href="#">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Skills</a>
+                            <a style={{color:"darkred"}}className="nav-link" href="#">Skills</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Projects</a>
+                            <a style={{color:"darkred"}}className="nav-link" href="#">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Blog</a>
+                            <a style={{color:"darkred"}}className="nav-link" href="#">Blog</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <a style={{color:"darkred"}}className="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
