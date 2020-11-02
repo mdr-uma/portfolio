@@ -9,7 +9,19 @@ body {
 }
 
 .intro img {
-  width: 20%;
+  width: 288px;
   border-radius: 100%;
+  position: absolute;
+  right: 15%;
+  z-index: 999;
+}
+
+.img-background {
+  background-color: #AFA89B;
+  width: 250px;
+  height: 296px;
+  position: absolute;
+  right: 8%;
+  z-index: -999;  
 }
 
