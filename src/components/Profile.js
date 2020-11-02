@@ -16,7 +16,9 @@ const Profile = () => {
             <img src={image} alt=""/>
         </div >
         <div className="img-background">
-            
+            <Twitter id="twitter"/>
+            <GitHub id="git"/>
+            <Linkedin id="linkedin"/>
         </div>
         </>
     )
