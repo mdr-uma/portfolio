@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Profile from './components/Profile'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class App extends React.Component {
   render(){
