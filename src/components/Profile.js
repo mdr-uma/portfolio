@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import image from '../images/uma.JPG'
+import { Twitter, GitHub, Linkedin } from 'react-feather'
 
 const Profile = () => {
     return (
