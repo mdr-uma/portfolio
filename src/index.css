@@ -8,11 +8,18 @@ body {
   background-image: url("images/background.jpg");  
 }
 
+.intro-message {
+  position: absolute;
+  left: 10%;
+  top: 35%
+}
+
 .intro img {
   width: 288px;
   border-radius: 100%;
   position: absolute;
-  right: 15%;
+  right: 17%;
+  top: 25%;
   z-index: 999;
 }
 
@@ -21,7 +28,8 @@ body {
   width: 250px;
   height: 296px;
   position: absolute;
-  right: 8%;
+  right: 10%;
+  top: 25%;
   z-index: -999;  
 }
 
@@ -30,7 +38,7 @@ body {
   height: 50px;
   color: deepskyblue;
   position: absolute;
-  right: 24%;
+  right: 26%;
   top: 8%;
 }
 #git {
@@ -38,7 +46,7 @@ body {
   height: 50px;
   color: black;
   position: absolute;
-  right: 10%;
+  right: 12%;
   top: 42%;
 }
 #linkedin {
@@ -46,7 +54,7 @@ body {
   height: 50px;
   color: rgb(30, 108, 172);
   position: absolute;
-  right: 24%;
+  right: 26%;
   bottom: 10%;
 }
 
