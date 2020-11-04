@@ -9,13 +9,11 @@ class App extends React.Component {
   render(){
     return(
       <div className="App">
-        <header className="App-header">
+        <Router>
           <Navbar />
-        </header>
-        
-        <main className= "main">
-          <Profile />
-        </main>
+            <Route exact path='/about' component={About} />
+        </Router>
+        <Profile />
 
         <Footer />
       </div>
