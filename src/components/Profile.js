@@ -16,9 +16,9 @@ const Profile = () => {
             <img src={image} alt=""/>
         </div >
         <div className="img-background">
-            <Twitter id="twitter"/>
-            <GitHub id="git"/>
-            <Linkedin id="linkedin"/>
+            <a href="https://twitter.com/imoohma"><Twitter id="twitter" /></a>
+            <a href=" https://github.com/mdr-uma"><GitHub id="git" /></a>
+            <a href="https://www.linkedin.com/in/uma-manandhar"><Linkedin id="linkedin" /></a>   
         </div>
         </>
     )
