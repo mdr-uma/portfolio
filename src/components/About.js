@@ -4,8 +4,8 @@ const About = () => {
     return(
          <div class="wrapper">
             <div class="row">
-                <div class="column"></div>
-                <div class="column"></div>
+                <div class="column">about me</div>
+                <div class="column">about me</div>
             </div>
         </div>
     )
