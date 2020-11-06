@@ -6,8 +6,8 @@ const NavBar = () => {
     return (
         <div id="app" className="container">
             <nav className="navbar navbar-expand-md navbar-light bg-light justify-content">
-                <a className="navbar-brand" href="#"><img src={image} alt="logo" className="logo"/></a>
-                <button className="btn btn-success ml-auto mr-1">Home</button>
+                <a className="navbar-brand" href="/"><img src={image} alt="logo" className="logo"/></a>
+                <Link className="btn btn-success ml-auto mr-1" to="/">Home</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -17,16 +17,16 @@ const NavBar = () => {
                             <Link style={{color:"darkred"}} className="nav-link" to="/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}}className="nav-link" href="/skills">Skills</Link>
+                            <Link style={{color:"darkred"}}className="nav-link" to="/skills">Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}}className="nav-link" href="/projects">Projects</Link>
+                            <Link style={{color:"darkred"}}className="nav-link" to="/projects">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}}className="nav-link" href="/blogs">Blog</Link>
+                            <Link style={{color:"darkred"}}className="nav-link" to="/blogs">Blog</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}}className="nav-link" href="contact">Contact</Link>
+                            <Link style={{color:"darkred"}}className="nav-link" to="contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
