@@ -78,6 +78,14 @@ p {
   text-align: left;
   font-size: large;
   padding: 2%;
-  margin-left: 3%;
+  margin-left: 10%;
+}
+
+.icons {
+  font-size: 40px;
+  position: absolute;
+  top: -8%;
+  left: 45%;
+  color: #2C80CD;
 }
 
