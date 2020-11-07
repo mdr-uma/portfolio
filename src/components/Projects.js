@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactPlayer from 'react-player'
 
 const Projects = () => {
     return(
@@ -7,15 +8,15 @@ const Projects = () => {
             <div className="row">
                 <div className="col-sm-4 pt-3">
                     <h4>Remote Jobs</h4>
-
+                    <ReactPlayer width="360px" height="240px" controls url="https://www.youtube.com/watch?v=rsTp_xUZNXg&ab_channel=umamanandhar"/>
                 </div>
                 <div className="col-sm-4 pt-3">
                     <h4>Bites for Tikes</h4>
-                    
+                    <ReactPlayer width="360px" height="240px" controls url="https://www.youtube.com/watch?v=YrHOMUZceGY&ab_channel=umamanandhar" />
                 </div>
                 <div className="col-sm-4 pt-3">
                     <h4>Positive Quotes</h4>
-                    
+                    <ReactPlayer width="360px" height="240px" controls url="https://www.youtube.com/watch?v=sBPXnwbElYo&ab_channel=umamanandhar" />     
                 </div>
             </div>
         </div>
