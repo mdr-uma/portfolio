@@ -87,4 +87,7 @@ p {
   left: 45%;
   color: #2C80CD;
 }
+.col-sm-6 {
+  height: 400px;
+}
 
