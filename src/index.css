@@ -10,15 +10,14 @@ body {
 
 .intro-message {
   position: absolute;
-  left: 10%;
-  top: 35%
-}
+  top: 40%
+ }
 
 .intro img {
   width: 288px;
   border-radius: 100%;
   position: absolute;
-  right: 17%;
+  right: 27%;
   top: 25%;
   z-index: 999;
 }
@@ -26,9 +25,9 @@ body {
 .img-background {
   background-color: #afa89b85;
   width: 250px;
-  height: 296px;
+  height: 295px;
   position: absolute;
-  right: 10%;
+  right: 6%;
   top: 25%;
   z-index: -999;  
 }
