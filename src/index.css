@@ -91,3 +91,9 @@ p {
   height: 400px;
 }
 
+.contact-icon {
+  color: green;
+  font-size: 35px;
+  margin: 1%;
+  padding-right: 4%;
+}
