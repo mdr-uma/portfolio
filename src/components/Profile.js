@@ -5,22 +5,28 @@ import { Twitter, GitHub, Linkedin } from 'react-feather'
 
 const Profile = () => {
     return (
-        <>
-        <div className="text-left intro-message">
-            <h3>Hi, I’m Uma Manandhar.</h3>
-            <h4>I am a Full-stack Web Developer.</h4>
-            <h5>My expertise are Ruby and JavaScript.</h5>
-            <Button />
+        <div className="container">
+            <div className="row">
+                <div className="col-sm-6">
+                    <div className="intro-message">
+                        <h3>Hi, I’m Uma Manandhar.</h3>
+                        <h4>I am a Full-stack Web Developer.</h4>
+                        <h5>My expertise are Ruby and JavaScript.</h5>
+                        <Button />
+                    </div>
+                </div>
+                <div className="col-sm-6">
+                    <div className="intro">
+                        <img src={image} alt=""/>
+                    </div >
+                    <div className="img-background">
+                        <a href="https://twitter.com/imoohma"><Twitter id="twitter" /></a>
+                        <a href=" https://github.com/mdr-uma"><GitHub id="git" /></a>
+                        <a href="https://www.linkedin.com/in/uma-manandhar"><Linkedin id="linkedin" /></a>   
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className="intro">
-            <img src={image} alt=""/>
-        </div >
-        <div className="img-background">
-            <a href="https://twitter.com/imoohma"><Twitter id="twitter" /></a>
-            <a href=" https://github.com/mdr-uma"><GitHub id="git" /></a>
-            <a href="https://www.linkedin.com/in/uma-manandhar"><Linkedin id="linkedin" /></a>   
-        </div>
-        </>
     )
 }
 
