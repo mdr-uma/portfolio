@@ -23,7 +23,7 @@ const NavBar = () => {
                             <Link style={{color:"darkred"}}className="nav-link" to="/projects">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}}className="nav-link" to="/blogs">Blog</Link>
+                            <Link style={{color:"darkred"}}className="nav-link" to="/blog">Blog</Link>
                         </li>
                         <li className="nav-item">
                             <Link style={{color:"darkred"}}className="nav-link" to="contact">Contact</Link>
