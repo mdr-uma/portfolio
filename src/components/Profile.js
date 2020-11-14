@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from './Button'
 import image from '../images/uma.JPG'
-import { Twitter, GitHub, Linkedin } from 'react-feather'
 
 const Profile = () => {
     return (
@@ -17,12 +16,12 @@ const Profile = () => {
                 </div>
                 <div className="col-sm-6">
                     <div className="intro">
-                        <img src={image} alt=""/>
+                        <img src={image} alt="" className="shadow"/>
                     </div >
-                    <div className="img-background">
-                        <a href="https://twitter.com/imoohma"><Twitter id="twitter" /></a>
-                        <a href=" https://github.com/mdr-uma"><GitHub id="git" /></a>
-                        <a href="https://www.linkedin.com/in/uma-manandhar"><Linkedin id="linkedin" /></a>   
+                    <div className="img-background shadow">
+                        <a href="https://twitter.com/imoohma"><i className="fab fa-twitter-square" id="twitter"></i></a>
+                        <a href=" https://github.com/mdr-uma"><i className="fab fa-github-square" id="git"></i></a>
+                        <a href="https://www.linkedin.com/in/uma-manandhar"><i className="fab fa-linkedin" id="linkedin"></i></a>   
                     </div>
                 </div>
             </div>
