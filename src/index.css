@@ -33,25 +33,39 @@ body {
 }
 
 #twitter {
-  font-size: 50px;
+  font-size: 40px;
   color: deepskyblue;
   position: absolute;
   right: 12%;
-  top: 8%;
+  top: 35%;
 }
+
+#twitter:hover {
+  color: white;
+}
+
 #git {
-  font-size: 50px;
+  font-size: 40px;
   color: black;
   position: absolute;
   right: 12%;
-  top: 42%;
+  top: 58%;
 }
+
+#git:hover {
+  color: red;
+}
+
 #linkedin {
-  font-size: 50px;
+  font-size: 40px;
   color: rgba(0, 119, 255, 0.774);
   position: absolute;
   right: 12%;
   bottom: 10%;
+}
+
+#linkedin:hover {
+  color: white;
 }
 
 .logo {
