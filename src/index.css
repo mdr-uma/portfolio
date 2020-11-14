@@ -33,25 +33,22 @@ body {
 }
 
 #twitter {
-  width: 40px;
-  height: 40px;
-  color: rgb(0, 191, 255, 0.774);
+  font-size: 50px;
+  color: deepskyblue;
   position: absolute;
   right: 12%;
   top: 8%;
 }
 #git {
-  width: 40px;
-  height: 40px;
+  font-size: 50px;
   color: black;
   position: absolute;
   right: 12%;
   top: 42%;
 }
 #linkedin {
-  width: 40px;
-  height: 40px;
-  color: white;
+  font-size: 50px;
+  color: rgba(0, 119, 255, 0.774);
   position: absolute;
   right: 12%;
   bottom: 10%;
