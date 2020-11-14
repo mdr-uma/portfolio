@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <div id="app" className="container">
             <nav className="navbar navbar-expand-md navbar-light bg-light justify-content">
-                <a className="navbar-brand" href="/"><img src={image} alt="logo" className="logo"/></a>
+                <a className="navbar-brand" href="/"><img src={image} alt="logo" className="logo animate__animated animate__tada"/></a>
                 <Link className="btn btn-success ml-auto mr-1" to="/">Home</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                     <span className="navbar-toggler-icon"></span>
