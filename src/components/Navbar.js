@@ -17,16 +17,16 @@ const NavBar = () => {
                             <Link style={{color:"darkred"}} className="nav-link" to="/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}}className="nav-link" to="/skills">Skills</Link>
+                            <Link style={{color:"darkred"}} className="nav-link" to="/skills">Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}}className="nav-link" to="/projects">Projects</Link>
+                            <Link style={{color:"darkred"}} className="nav-link" to="/projects">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}}className="nav-link" to="/blog">Blog</Link>
+                            <Link style={{color:"darkred"}} className="nav-link" to="/blog">Blog</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}}className="nav-link" to="contact">Contact</Link>
+                            <Link style={{color:"darkred"}} className="nav-link" to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
