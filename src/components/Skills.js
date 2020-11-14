@@ -27,6 +27,7 @@ const Skills = () => {
                     <p>- Bootstrap/Github</p>
                 </div>
             </div>
+            <button className="btn btn-success my-2">Download Resume</button>
         </div>
     )
 }
