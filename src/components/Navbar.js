@@ -14,19 +14,19 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse flex-grow-0" id="navbarSupportContent">
                     <ul className="navbar-nav text-right">    
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}} className="nav-link" to="/about">About</Link>
+                            <Link className="nav-link" to="/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}} className="nav-link" to="/skills">Skills</Link>
+                            <Link className="nav-link" to="/skills">Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}} className="nav-link" to="/projects">Projects</Link>
+                            <Link className="nav-link" to="/projects">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}} className="nav-link" to="/blog">Blog</Link>
+                            <Link className="nav-link" to="/blog">Blog</Link>
                         </li>
                         <li className="nav-item">
-                            <Link style={{color:"darkred"}} className="nav-link" to="/contact">Contact</Link>
+                            <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
