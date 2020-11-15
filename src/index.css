@@ -108,3 +108,9 @@ p {
   margin: 1%;
   padding-right: 4%;
 }
+
+h3:hover, h4:hover, h5:hover {
+  color: #920606;
+  transition-duration: 1s;
+  transform: scale(1.35);
+}
