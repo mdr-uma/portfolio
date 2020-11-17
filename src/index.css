@@ -83,7 +83,7 @@ h2:hover{
 }
 
 .col-sm-4 {
-  background-color: #f8e8e893;
+  background-color: #f8e8e856;
   text-align: center;
   height: 300px;
 }
@@ -106,8 +106,13 @@ p:hover {
   left: 45%;
   color: #2C80CD;
 }
+
 .col-sm-6 {
   height: 400px;
+}
+
+.col-sm-6:hover {
+  background-color: rgba(252, 238, 225, 0.473);
 }
 
 .contact-icon {
