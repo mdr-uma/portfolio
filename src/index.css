@@ -78,6 +78,10 @@ h2 {
   color: #920606;
 }
 
+h2:hover{
+  color: #9e1988ea;
+}
+
 .col-sm-4 {
   background-color: #f8e8e893;
   text-align: center;
