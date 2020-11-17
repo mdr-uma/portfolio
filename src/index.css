@@ -95,6 +95,10 @@ p {
   margin-left: 10%;
 }
 
+p:hover {
+  color: rgb(209, 68, 16);
+}
+
 .icons {
   font-size: 40px;
   position: absolute;
