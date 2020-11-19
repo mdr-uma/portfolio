@@ -121,12 +121,9 @@ p:hover {
   margin: 1%;
   padding-right: 4%;
 }
-h4 {
-  text-align: center;
-}
 
-h3:hover, h4:hover, h5:hover {
+h3:hover,h4:hover, h5:hover {
   color: #920606;
   transition-duration: 1s;
-  transform: scale(1.35);
+  transform: scale(1.15);
 }
