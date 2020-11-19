@@ -82,7 +82,7 @@ h2:hover{
   color: #9e1988ea;
 }
 
-.col-sm-4 {
+.skill {
   background-color: #f8e8e856;
   text-align: center;
   height: 300px;
@@ -120,6 +120,9 @@ p:hover {
   font-size: 35px;
   margin: 1%;
   padding-right: 4%;
+}
+h4 {
+  text-align: center;
 }
 
 h3:hover, h4:hover, h5:hover {
