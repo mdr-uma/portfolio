@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("images/background.jpg");  
+  background-image: url("images/background.jpg");
+  min-height: 100vh;  
 }
 
 .intro-message {
@@ -76,6 +77,10 @@ h2 {
   text-align: center;
   padding: 2%;
   color: #920606;
+  background-image: url("images/background-color.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 h2:hover{
