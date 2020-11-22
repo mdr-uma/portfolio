@@ -11,7 +11,7 @@ const Profile = () => {
                         <h3>Hi, I’m Uma Manandhar.</h3>
                         <h4>I am a Full-stack Web Developer.</h4>
                         <h5>My expertise are Ruby and JavaScript.</h5>
-                        <Button />
+                        <Button>Contact Me</Button>
                     </div>
                 </div>
                 <div className="col-sm-6">
