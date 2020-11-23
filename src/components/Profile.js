@@ -10,7 +10,7 @@ const Profile = () => {
                     <div className="intro-message">
                         <h3>Hi, I’m Uma Manandhar.</h3>
                         <h4>I am a Full-stack Web Developer.</h4>
-                        <h5>My expertise are Ruby and JavaScript.</h5>
+                        <h5>My expertise are Ruby on Rails, JavaScript and React.</h5>
                         <Button>Contact Me</Button>
                     </div>
                 </div>
