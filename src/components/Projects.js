@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player'
 const Projects = () => {
     return(
         <div className="container">
+            <br/>
             <h2>Projects</h2>
             <div className="row">
                 <div className="col-sm-4 pt-3 mr-.5">
