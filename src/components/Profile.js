@@ -1,6 +1,6 @@
 import React from 'react'
-import Button from './Button'
 import image from '../images/uma.JPG'
+import { Link } from 'react-router-dom'
 
 const Profile = () => {
     return (
@@ -11,7 +11,7 @@ const Profile = () => {
                         <h3>Hi, I’m Uma Manandhar.</h3>
                         <h4>I am a Full-stack Web Developer.</h4>
                         <h5>My expertise are Ruby on Rails, JavaScript and React.</h5>
-                        <Button>Contact Me</Button>
+                        <Link to='/contact' className="btn btn-success ml-auto mr-1">Contact Me</Link>
                     </div>
                 </div>
                 <div className="col-sm-6">
