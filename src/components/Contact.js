@@ -1,15 +1,17 @@
 import emailjs from 'emailjs-com'
 import React from 'react'
-import Button from './Button';
+import Button from './Button'
 
 export default class extends React.Component {
     constructor(props) {
-    super(props);
+    super(props)
 	this.state = { 
         feedback: '', 
         name: 'Name', 
         email: 'email@example.com'
      }
+	this.handleChange = this.handleChange.bind(this)
+	this.handleSubmit = this.handleSubmit.bind(this)
   }
 
     render() {
@@ -61,7 +63,7 @@ export default class extends React.Component {
 
     handleSubmit(event) {
         event.preventDefault();
-        const templateId = 'contact_form';
+        const templateId = 'contact_form'
 
         emailjs.sendForm(
             'service_2y6l4eg', templateId,
