@@ -129,6 +129,17 @@ p:hover {
   padding-right: 4%;
 }
 
+.s-icon {
+  float: right;
+  font-size: 170%;
+  letter-spacing: 10px;
+  color: rgb(23, 151, 160);
+}
+
+.s-icon:hover {
+  color: rgb(13, 116, 116);
+}
+
 h3:hover,h4:hover, h5:hover {
   color: #920606;
   transition-duration: 1s;
