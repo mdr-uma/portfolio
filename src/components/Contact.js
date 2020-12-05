@@ -16,7 +16,7 @@ export default class extends React.Component {
             <div className="container">
                 <br/>
                 <h2>Contact Me</h2>
-                <form className="test-mailing">
+                <form onSubmit={this.handleSubmit} className="test-mailing">
                     <div className="row h-100 d-flex justify-content-center align-items-center">
                         <div className="col-8 form-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name"/>
@@ -34,8 +34,10 @@ export default class extends React.Component {
                                 cols="30"
                                 rows="6"
                                 name="message"
+                                onChange={this.handleChange}
                                 placeholder="Your message"
                                 required
+                                value={this.state.feedback}
                             />
                         </div>
                         <div className="col-8 mx-auto">
