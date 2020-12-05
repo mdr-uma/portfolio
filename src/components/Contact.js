@@ -1,3 +1,4 @@
+import emailjs from 'emailjs-com'
 import React from 'react'
 import Button from './Button';
 
@@ -52,5 +53,24 @@ export default class extends React.Component {
         )
     }
 
-}
+    handleChange(event) {
+        this.setState({ 
+            feedback: event.target.value 
+        })
+    }
+
+    handleSubmit(event) {
+        event.preventDefault();
+        const templateId = 'contact_form';
+
+        emailjs.sendForm(
+            'service_2y6l4eg', templateId,
+            ".test-mailing", "user_mXSUTB5nAt998TioGXozW"
+        ).then(res => {
+            console.log('Email successfully sent!', res)
+            })
+        .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+        }
+
+    }
 
