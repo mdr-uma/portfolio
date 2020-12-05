@@ -1,19 +1,54 @@
 import React from 'react'
+import Button from './Button';
 
-const Contact = () => {
-    return(
-        <div className="container">
-            <h2>Contact Info</h2>
-            <div className="h-100 d-flex justify-content-center align-items-center">
-                <div className="skill col-sm-4 p-5 shadow text-left">
-                    <h5><i className="fas fa-map-marker-alt contact-icon"></i>Boston, Massachusetts</h5><hr/>
-                    <h5><i className="fas fa-envelope-square contact-icon"></i> mdr.uma28@gmail.com</h5><hr />
-                    <h5><i className="fas fa-phone-alt contact-icon"></i>617.309.0676</h5>
-                </div>
+export default class extends React.Component {
+    constructor(props) {
+    super(props);
+	this.state = { 
+        feedback: '', 
+        name: 'Name', 
+        email: 'email@example.com'
+     }
+  }
+
+    render() {
+        return (
+            <div className="container">
+                <br/>
+                <h2>Contact Me</h2>
+                <form className="test-mailing">
+                    <div className="row h-100 d-flex justify-content-center align-items-center">
+                        <div className="col-8 form-group mx-auto">
+                            <input type="text" className="form-control" placeholder="Name" name="name"/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
+                            <input type="email" className="form-control" placeholder="Email Address" name="email" required/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
+                            <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
+                            <textarea
+                                className="form-control"
+                                id="test-mailing"
+                                cols="30"
+                                rows="6"
+                                name="message"
+                                placeholder="Your message"
+                                required
+                            />
+                        </div>
+                        <div className="col-8 mx-auto">
+                            <Button>Send Message</Button>
+                            <a href="https://twitter.com/imoohma"><i className="fab fa-twitter-square s-icon"></i></a>
+                            <a href=" https://github.com/mdr-uma"><i className="fab fa-github-square s-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/uma-manandhar"><i className="fab fa-linkedin s-icon"></i></a>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </div>
+        )
+    }
 
-    )
 }
 
-export default Contact 
