@@ -4,10 +4,10 @@ import image from '../images/LOGO.jpg'
 
 const NavBar = () => {
     return (
-        <div id="app" className="container">
-            <nav className="navbar navbar-expand-md navbar-light bg-light justify-content">
+        <div className="container">
+            <nav className="navbar navbar-expand-sm navbar-light bg-light">
                 <a className="navbar-brand" href="/"><img src={image} alt="logo" className="logo animate__animated animate__tada"/></a>
-                <Link className="btn btn-success ml-auto mr-1" to="/">Home</Link>
+                <Link className="btn btn-success" to="/">Home</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                     <span className="navbar-toggler-icon"></span>
                 </button>
