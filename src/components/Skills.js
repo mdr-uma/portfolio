@@ -4,7 +4,6 @@ import Button from './Button'
 const Skills = () => {
     return(
         <div className="container">
-            <br/>
             <h2>Skills Overview</h2><br/>
             <div className="row">
                 <div className="skill col-sm-4 pt-3 shadow mr-.5">
