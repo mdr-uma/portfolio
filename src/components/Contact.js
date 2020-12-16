@@ -45,9 +45,6 @@ export default class extends React.Component {
                         </div>
                         <div className="col-8 mx-auto">
                             <Button>Send Message</Button>
-                            <a href="https://twitter.com/imoohma"><i className="fab fa-twitter-square s-icon"></i></a>
-                            <a href=" https://github.com/mdr-uma"><i className="fab fa-github-square s-icon"></i></a>
-                            <a href="https://www.linkedin.com/in/uma-manandhar"><i className="fab fa-linkedin s-icon"></i></a>
                         </div>
                     </div>
                 </form>
