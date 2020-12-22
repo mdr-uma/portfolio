@@ -15,9 +15,9 @@ const Profile = () => {
                             <div className="info">
                                 <i className="fas fa-sort-up"></i>
                                 <ul>
-                                    <li>Email: mdr.uma28@gmail.com</li>
-                                    <li>phone: 6173090676</li>
-                                    <li>Address: Boston, MA, 02151</li>     
+                                    <li><i className="fas fa-inbox"></i> mdr.uma28@gmail.com</li>
+                                    <li><i className="fas fa-phone-alt"></i> 6173090676</li>
+                                    <li><i className="fas fa-map-marker-alt"></i> Boston, MA, 02151</li>     
                                 </ul>
                             </div> 
                                 : null
