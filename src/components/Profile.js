@@ -1,7 +1,5 @@
 import React from 'react'
 import image from '../images/uma.JPG'
-import { Link } from 'react-router-dom'
-
 const Profile = () => {
     return (
         <div className="container">
@@ -10,8 +8,7 @@ const Profile = () => {
                     <div className="intro-message">
                         <h3>Hi, I’m Uma Manandhar.</h3>
                         <h4>I am a Full-stack Web Developer.</h4>
-                        <h5>My expertise are Ruby on Rails, JavaScript and React.</h5>
-                        <Link to='/contact' className="btn btn-success ml-auto mr-1">Contact Me</Link>
+                        <h5>My expertise are Ruby on Rails, JavaScript and React.</h5>               
                     </div>
                 </div>
                 <div className="col-sm-6">
