@@ -11,7 +11,16 @@ const Profile = () => {
                         <h4>I am a Full-stack Web Developer.</h4>
                         <h5>My expertise are Ruby on Rails, JavaScript and React.</h5>
                         <button className="btn btn-success ml-auto mr-1" onClick={() => setInfo(!info)}>Contact Info</button>
-                        {info ?  console.log("My Info") : null}
+                        {info ? 
+                            <div className="info">
+                                <ul>
+                                    <li>Email: mdr.uma28@gmail.com</li>
+                                    <li>phone: 6173090676</li>
+                                    <li>Address: Boston, MA, 02151</li>     
+                                </ul>
+                            </div> 
+                                : null
+                        }
                     </div>
                 </div>
                 <div className="col-sm-6">
