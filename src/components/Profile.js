@@ -13,6 +13,7 @@ const Profile = () => {
                         <button className="btn btn-success ml-auto mr-1" onClick={() => setInfo(!info)}>Contact Info</button>
                         {info ? 
                             <div className="info">
+                                <i className="fas fa-sort-up"></i>
                                 <ul>
                                     <li>Email: mdr.uma28@gmail.com</li>
                                     <li>phone: 6173090676</li>
