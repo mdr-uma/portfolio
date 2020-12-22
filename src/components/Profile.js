@@ -3,7 +3,7 @@ import image from '../images/uma.JPG'
 
 const Profile = () => {
     const [info, setInfo] = useState(null)
-    
+
     return (
         <div className="container">
             <div className="row">
@@ -14,7 +14,7 @@ const Profile = () => {
                         <h5>My expertise are Ruby on Rails, JavaScript and React.</h5>
                         <button className="btn btn-success ml-auto mr-1" onClick={() => setInfo(!info)}>Contact Info</button>
                         {info ? 
-                            <div className="info">
+                            <div className="info shadow animate__animated animate__bounceInLeft">
                                 <i className="fas fa-sort-up"></i>
                                 <ul>
                                     <li><i className="fas fa-inbox"></i> mdr.uma28@gmail.com</li>
