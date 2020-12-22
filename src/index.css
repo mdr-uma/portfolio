@@ -159,6 +159,16 @@ li {
   padding: 0 0 8px 0;
 }
 
+li:hover {
+  color: #2835ee;
+}
+
+li i {
+  color: rgb(21, 185, 49);
+  padding-right: 15px;
+  font-size: larger;
+}
+
 .fas.fa-sort-up {
   color: rgb(243, 243, 177);
   font-size: 40px;
