@@ -145,3 +145,24 @@ h3:hover,h4:hover, h5:hover {
   transition-duration: 1s;
   transform: scale(1.15);
 }
+
+.info {
+  background-color: rgb(243, 243, 177);
+  margin-top: 15px;
+  padding: 0px 0 8px 0;
+  width: 70%;
+  border-radius: 20px;
+}
+
+li {
+  list-style: none;
+  padding: 0 0 8px 0;
+}
+
+.fas.fa-sort-up {
+  color: rgb(243, 243, 177);
+  font-size: 40px;
+  position: relative;
+  top: -15px;
+  right: -30px;
+}
