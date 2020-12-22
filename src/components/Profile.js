@@ -10,7 +10,7 @@ const Profile = () => {
                         <h3>Hi, I’m Uma Manandhar.</h3>
                         <h4>I am a Full-stack Web Developer.</h4>
                         <h5>My expertise are Ruby on Rails, JavaScript and React.</h5>
-                        <button className="btn btn-success ml-auto mr-1">Contact Info</button>
+                        <button className="btn btn-success ml-auto mr-1" onClick={() => setInfo(!info)}>Contact Info</button>
                         
                     </div>
                 </div>
