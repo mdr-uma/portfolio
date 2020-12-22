@@ -149,14 +149,14 @@ h3:hover,h4:hover, h5:hover {
 .info {
   background-color: rgb(243, 243, 177);
   margin-top: 15px;
-  padding: 0px 0 8px 0;
+  padding-bottom: 8px;
   width: 70%;
   border-radius: 20px;
 }
 
 li {
   list-style: none;
-  padding: 0 0 8px 0;
+  padding-bottom: 8px;
 }
 
 li:hover {
@@ -165,7 +165,7 @@ li:hover {
 
 li i {
   color: rgb(21, 185, 49);
-  padding-right: 15px;
+  padding-right: 10px;
   font-size: larger;
 }
 
