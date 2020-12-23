@@ -66,6 +66,7 @@ export default class extends React.Component {
         .catch(err => {
           alert("Something went wrong. Please try again!");
         })
+        event.target.reset()
         }
     }
 
