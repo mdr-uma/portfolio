@@ -6,12 +6,8 @@ export default class extends React.Component {
     constructor(props) {
     super(props)
 	this.state = { 
-        feedback: '', 
-        name: 'Name', 
-        email: 'email@example.com'
+        message: ''
      }
-	this.handleChange = this.handleChange.bind(this)
-	this.handleSubmit = this.handleSubmit.bind(this)
   }
 
     render() {
@@ -33,14 +29,13 @@ export default class extends React.Component {
                         <div className="col-8 form-group pt-2 mx-auto">
                             <textarea
                                 className="form-control"
-                                id="test-mailing"
                                 cols="30"
                                 rows="6"
                                 name="message"
                                 onChange={this.handleChange}
                                 placeholder="Your message"
                                 required
-                                value={this.state.feedback}
+                                value={this.state.message}
                             />
                         </div>
                         <div className="col-8 mx-auto">
@@ -52,24 +47,25 @@ export default class extends React.Component {
         )
     }
 
-    handleChange(event) {
+    handleChange = (event) => {
         this.setState({ 
-            feedback: event.target.value 
+            message: event.target.value 
         })
     }
 
-    handleSubmit(event) {
+    handleSubmit = (event) => {
         event.preventDefault();
         const templateId = 'contact_form'
 
         emailjs.sendForm(
             'service_2y6l4eg', templateId,
-            ".test-mailing", "user_mXSUTB5nAt998TioGXozW"
+            event.target, "user_mXSUTB5nAt998TioGXozW"
         ).then(res => {
-            console.log('Email successfully sent!', res)
+            alert("Email sent successfully!")
             })
-        .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+        .catch(err => {
+          alert("Something went wrong. Please try again!");
+        })
         }
-
     }
 
