@@ -19,7 +19,9 @@ const About = () => {
                     <div className="about">
                         I chose different career paths , where I learned the fine art of customer service and teaching. But deep down, I always wanted to be in the technology field. I never gave up, which is why even after so many years, I joined a coding bootcamp to fulfill my dream.<br/><br/>
 
-                        No matter where I work, I bring the same dedication and passion I have always had. As a multilingual expat, I adapt to different environments and cultures. I always want to learn, so I’m always ready for challenges.
+                        No matter where I work, I bring the same dedication and passion I have always had. As a multilingual expat, I adapt to different environments and cultures. I always want to learn, so I’m always ready for challenges.<br/> <br/>
+
+                        Besides coding I love to cook, dance and learn about new technologies.
                     </div>
                 </div>
             </div>
