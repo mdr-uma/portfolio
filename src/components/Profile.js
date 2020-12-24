@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import image from '../images/uma.JPG'
+import Video from '../videos/bg-video.mp4'
 
 const Profile = () => {
     const [info, setInfo] = useState(null)
@@ -34,6 +35,9 @@ const Profile = () => {
                         <a href="https://www.linkedin.com/in/uma-manandhar"><i className="fab fa-linkedin shadow animate__animated animate__bounceInDown" id="linkedin"></i></a>
                     </div >
                     <div className="img-background shadow">
+                        <video autoPlay loop muted className="bg-video">
+                            <source src={Video} type="video/mp4" />
+                        </video>
                     </div>
                 </div>
             </div>
