@@ -18,8 +18,8 @@ const Profile = () => {
                             <div className="info shadow animate__animated animate__bounceInLeft">
                                 <i className="fas fa-sort-up"></i>
                                 <ul>
-                                    <li><i className="fas fa-inbox"></i> mdr.uma28@gmail.com</li>
-                                    <li><i className="fas fa-phone-alt"></i> 617.309.0676</li>
+                                    <li><i className="fas fa-inbox"></i> mdr.uma28@gmail.com</li><hr/>
+                                    <li><i className="fas fa-phone-alt"></i> 617.309.0676</li><hr />
                                     <li><i className="fas fa-map-marker-alt"></i> Boston, MA, 02151</li>     
                                 </ul>
                             </div> 
