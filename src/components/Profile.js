@@ -1,9 +1,15 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import image from '../images/uma.JPG'
 import Video from '../videos/bg-video.mp4'
 
 const Profile = () => {
     const [info, setInfo] = useState(null)
+
+    useEffect(() => {
+        document.body.addEventListener('click', () => {
+            setInfo(null)
+        })
+    }, [])
 
     return (
         <div className="container">
