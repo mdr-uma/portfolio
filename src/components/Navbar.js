@@ -11,7 +11,7 @@ const NavBar = () => {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse flex-grow-0" id="navbarSupportContent">
+                <div className="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                     <ul className="navbar-nav text-right">    
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">About</Link>
