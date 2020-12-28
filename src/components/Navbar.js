@@ -12,7 +12,7 @@ const NavBar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-                    <ul className="navbar-nav text-right">    
+                    <ul className="navbar-nav text-center">    
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">About</Link>
                         </li>
