@@ -20,18 +20,17 @@ body {
   width: 290px;
   border-radius: 100%;
   position: absolute;
-  right: 20%;
+  right: 22%;
   top: 25%;
   z-index: 999;
 }
 
 .img-background {
-  background-color: #afa89b85;
   width: 250px;
   height: 292px;
   position: absolute;
   right: .1%;
-  top: 26%;
+  top: 25.5%;
   z-index: -999;  
 }
 
