@@ -27,7 +27,6 @@ const Home = () => {
             <div className="pb-5 mb-5">
                 <Contact />
             </div>
-            <br/>
         </div>
     )
 }
