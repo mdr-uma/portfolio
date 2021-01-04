@@ -33,6 +33,13 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
+
+                <a className="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span className="carousel-control-prev-icon text-success"></span>
+                </a>
+                <a className="carousel-control-next" href="#demo" data-slide="next">
+                    <span className="carousel-control-next-icon text-success"></span>
+                </a>
             </div>
         </div>
     )
