@@ -186,3 +186,8 @@ li i {
   transform: translate(-50%, -50%);
   opacity: .5;
 }
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
