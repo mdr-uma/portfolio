@@ -4,7 +4,7 @@ import image1 from '../images/higher-order.png'
 import image2 from '../images/state vs props.png'
 import image3 from '../images/class & functional.png'
 import image4 from '../images/== & ===.png'
-import image5 from '../images/string.png'
+import image5 from '../images/Github.png'
 
 const Blog = () => {
     return(
@@ -51,8 +51,8 @@ const Blog = () => {
                                 </a>
                             </div>
                             <div className="col-sm-4 pt-3">
-                                <h4>JavaScript</h4>
-                                <a href="https://dev.to/uma/javascript-strings-2p7i">
+                                <h4>Github</h4>
+                                <a href="https://dev.to/uma/my-first-ever-pr-pull-request-to-an-open-source-project-experience-obk">
                                     <img width="360px" height="240px" src={image5} alt="pic" className="shadow-lg" />
                                 </a>
                             </div>
