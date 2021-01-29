@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './Button'
 
 const Skills = () => {
     return(
@@ -28,10 +27,6 @@ const Skills = () => {
                     <p>- Bootstrap/Github</p>
                 </div>
             </div>
-            <br/>
-            <a href="https://docs.google.com/document/d/1iNjL3kdGKESi8NJ4GNt1DN_oZnwLb2nRtPXHoFA3IoI/edit">
-                <Button>Download Resume</Button>
-            </a>
         </div>
     )
 }
