@@ -1,7 +1,7 @@
 import React from 'react'
 import image from '../images/redux.png'
 import image1 from '../images/higher-order.png'
-import image2 from '../images/state vs props.png'
+import image2 from '../images/netlify.png'
 import image3 from '../images/class & functional.png'
 import image4 from '../images/== & ===.png'
 import image5 from '../images/Github.png'
@@ -29,7 +29,7 @@ const Blog = () => {
                             </div>
                             <div className="col-sm-4 pt-3">
                                 <h4>React</h4>
-                                <a href="https://dev.to/uma/state-v-s-props-3pn0">
+                                <a href="https://dev.to/uma/deploying-process-of-react-app-to-netlify-1842">
                                     <img width="360px" height="240px" src={image2} alt="pic" className="shadow-lg" />
                                 </a>
                             </div>
