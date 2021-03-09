@@ -72,7 +72,7 @@ body {
 }
 
 .logo {
-  width: 20%;
+  width: 8rem;
 }
 
 h2 {
@@ -114,7 +114,7 @@ p:hover {
   color: #2C80CD;
 }
 
-.col-sm-6 {
+.col-md-6 {
   height: 31.25rem;
 }
 
