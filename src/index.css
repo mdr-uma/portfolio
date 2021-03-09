@@ -18,11 +18,11 @@ body {
  }
 
 .intro img {
-  width: 290px;
+  width: 18.125rem;
   border-radius: 100%;
   position: absolute;
-  right: 22%;
-  top: 25%;
+  right: 5rem;
+  top: 7.8rem;
   z-index: 999;
 }
 
@@ -30,8 +30,8 @@ body {
   width: 15.625rem;
   height: 18.25rem;
   position: absolute;
-  right: .1%;
-  top: 25.5%;
+  right: 0.1rem;
+  top: 8rem;
   z-index: -999;  
 }
 
@@ -122,12 +122,6 @@ p:hover {
   background-color: rgba(252, 238, 225, 0.473);
 }
 
-/* .contact-icon {
-  color: green;
-  font-size: 35px;
-  margin: 1%;
-  padding-right: 4%;
-} */
 
 .s-icon {
   float: right;
@@ -148,10 +142,10 @@ h3:hover,h4:hover, h5:hover {
 
 .info {
   background-color: rgb(243, 243, 177);
-  margin-top: 15px;
-  padding-bottom: 8px;
-  width: 70%;
-  border-radius: 20px;
+  margin-top: 0.938rem;
+  padding: 0.5rem;
+  width: 22rem;
+  border-radius: 1.25rem;
 }
 
 li {
@@ -173,8 +167,8 @@ li i {
   color: rgb(243, 243, 177);
   font-size: 2.5rem;
   position: relative;
-  top: -15px;
-  right: -30px;
+  top: -1.563rem;
+  right: -1.875rem;
 }
 
 .bg-video {
