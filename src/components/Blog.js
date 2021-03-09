@@ -15,19 +15,19 @@ const Blog = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="row">
-                            <div className="col-sm-4 pt-3">
+                            <div className="col-md-4 pt-3">
                                 <h4>React/Redux</h4>
                                 <a href="https://dev.to/uma/how-i-implemented-redux-in-my-react-project-3c79">
                                     <img width="360px" height="240px" src={image} alt="pic" className="shadow-lg"/>
                                 </a>
                             </div>
-                            <div className="col-sm-4 pt-3">
+                            <div className="col-md-4 pt-3">
                                 <h4>React</h4>
                                 <a href="https://dev.to/uma/higher-order-components-5e52">
                                     <img width="360px" height="240px" src={image1} alt="pic" className="shadow-lg" />
                                 </a>
                             </div>
-                            <div className="col-sm-4 pt-3">
+                            <div className="col-md-4 pt-3">
                                 <h4>React</h4>
                                 <a href="https://dev.to/uma/deploying-process-of-react-app-to-netlify-1842">
                                     <img width="360px" height="240px" src={image2} alt="pic" className="shadow-lg" />
@@ -38,19 +38,19 @@ const Blog = () => {
 
                     <div className="carousel-item">
                         <div className="row">
-                            <div className="col-sm-4 pt-3">
+                            <div className="col-md-4 pt-3">
                                 <h4>React</h4>
                                 <a href="https://dev.to/uma/class-and-functional-components-4ik8">
                                     <img width="360px" height="240px" src={image3} alt="pic" className="shadow-lg" />
                                 </a>
                             </div>
-                            <div className="col-sm-4 pt-3">
+                            <div className="col-md-4 pt-3">
                                 <h4>JavaScript</h4>
                                 <a href="https://dev.to/uma/the-difference-between-javascript-and-comparison-operators-2j78">
                                     <img width="360px" height="240px" src={image4} alt="pic" className="shadow-lg" />
                                 </a>
                             </div>
-                            <div className="col-sm-4 pt-3">
+                            <div className="col-md-4 pt-3">
                                 <h4>Github</h4>
                                 <a href="https://dev.to/uma/my-first-ever-pr-pull-request-to-an-open-source-project-experience-obk">
                                     <img width="360px" height="240px" src={image5} alt="pic" className="shadow-lg" />
