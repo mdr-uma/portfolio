@@ -73,6 +73,8 @@ body {
 
 .logo {
   width: 8rem;
+  position: absolute;
+  top: 0px;
 }
 
 h2 {
