@@ -3,6 +3,7 @@ import React from 'react'
 const Skills = () => {
     return(
         <div className="container">
+            <br/>
             <h2>Skills Overview</h2><br/>
             <div className="row">
                 <div className="skill col-md-4 pt-3 shadow mb-5 mb-sm-5">
