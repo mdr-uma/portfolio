@@ -12,7 +12,7 @@ const Profile = () => {
     }, [])
 
     return (
-        <div className="container">
+        <div className="container" id="profile">
             <div className="row">
                 <div className="col-md-6">
                     <div className="intro-message">

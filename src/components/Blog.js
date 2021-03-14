@@ -8,7 +8,7 @@ import image5 from '../images/Github.png'
 
 const Blog = () => {
     return(
-        <div className="container">
+        <div className="container" id="blog">
             <br/>
             <h2>Blog</h2>
             <div id="demo" className="carousel" data-ride="carousel">

@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player'
 
 const Projects = () => {
     return(
-        <div className="container">
+        <div className="container" id="projects">
             <br/>
             <h2>Projects</h2>
             <div className="row">

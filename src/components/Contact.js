@@ -12,7 +12,7 @@ export default class extends React.Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="container" id="contact">
                 <br/>
                 <h2>Contact Me</h2>
                 <form onSubmit={this.handleSubmit} className="test-mailing">
