@@ -1,8 +1,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("images/background.jpg");
@@ -12,6 +11,16 @@ body {
   font-size: 16px;
 }
 
+/* navbar.js */
+.nav-link {
+  cursor: pointer;
+}
+
+.logo {
+  width: 8rem;
+}
+
+/* profile.js */
 .intro-message {
   position: absolute;
   top: 40%
@@ -71,10 +80,50 @@ body {
   color: white;
 }
 
-.logo {
-  width: 8rem;
+.bg-video {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
 }
 
+/* contact info inside profile.js*/ 
+.info {
+  background-color: rgb(243, 243, 177);
+  margin-top: 0.938rem;
+  padding: 0.5rem;
+  width: 22rem;
+  border-radius: 1.25rem;
+}
+
+.info li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+.info li:hover {
+  color: #2835ee;
+}
+
+.info li i {
+  color: rgb(21, 185, 49);
+  padding-right: 10px;
+  font-size: larger;
+}
+
+.fas.fa-sort-up {
+  color: rgb(243, 243, 177);
+  font-size: 2.5rem;
+  position: relative;
+  top: -1.563rem;
+  right: -1.875rem;
+}
+
+/* title and sub-title names of each route */
 h2 {
   text-align: center;
   padding: 2%;
@@ -89,6 +138,18 @@ h2:hover{
   color: #9e1988ea;
 }
 
+h3:hover,h4:hover, h5:hover {
+  color: #920606;
+  transition-duration: 1s;
+  transform: scale(1.15);
+}
+
+/* about.js */
+.about:hover {
+  background-color: rgba(252, 238, 225, 0.473);
+}
+
+/* skills.js */
 .skill {
   background-color: #f8e8e8fb;
   text-align: center;
@@ -116,75 +177,12 @@ p:hover {
   color: #2C80CD;
 }
 
-.col-md-6 {
-  height: 31.25rem;
-}
-
-.about:hover {
-  background-color: rgba(252, 238, 225, 0.473);
-}
-
-
-.s-icon {
-  float: right;
-  font-size: 170%;
-  letter-spacing: 10px;
-  color: rgb(23, 151, 160);
-}
-
-.s-icon:hover {
-  color: rgb(13, 116, 116);
-}
-
-h3:hover,h4:hover, h5:hover {
-  color: #920606;
-  transition-duration: 1s;
-  transform: scale(1.15);
-}
-
-.info {
-  background-color: rgb(243, 243, 177);
-  margin-top: 0.938rem;
-  padding: 0.5rem;
-  width: 22rem;
-  border-radius: 1.25rem;
-}
-
-li {
-  list-style: none;
-  padding-bottom: 8px;
-}
-
-li:hover {
-  color: #2835ee;
-}
-
-li i {
-  color: rgb(21, 185, 49);
-  padding-right: 10px;
-  font-size: larger;
-}
-
-.fas.fa-sort-up {
-  color: rgb(243, 243, 177);
-  font-size: 2.5rem;
-  position: relative;
-  top: -1.563rem;
-  right: -1.875rem;
-}
-
-.bg-video {
-  position: absolute;
-  width: 100%;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  opacity: 0.5;
-}
-
+/* blog */
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
+}
+
+.col-md-6 {
+  height: 31.25rem;
 }
