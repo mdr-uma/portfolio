@@ -4,10 +4,10 @@ import image from '../images/portfolio-logo.png'
 
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div className="container d-flex justify-content-space-between">
+        <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top p-0">
+            <div className="container">
                 <div>
-                    <Link to="/" onClick={() => scroll.scrollToTop()}>
+                    <Link className="nav-link" to="/" onClick={() => scroll.scrollToTop()}>
                         <img src={image} alt="logo" className="logo animate__animated animate__tada"/>
                     </Link>
                 </div>
