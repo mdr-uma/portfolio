@@ -17,7 +17,7 @@ const Profile = () => {
                 <div className="col-md-6">
                     <div className="intro-message">
                         <h3>Hi, I’m Uma Manandhar.</h3>
-                        <h4>I am a Software Engineer.</h4>
+                        <h4>I am a Software Engineer, former Math Teacher & Graphic Designer.</h4>
                         <h5>My expertise includes JavaScript, React, and Ruby on Rails.</h5>
                         <button className="btn btn-success ml-auto mr-1" onClick={() => setInfo(!info)}>Contact Info</button>
                         {info ? 
