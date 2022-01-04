@@ -26,6 +26,7 @@ const Skills = () => {
                     <p>- Sinatra</p>
                     <p>- Figma/Adobe Photoshop</p>
                     <p>- Bootstrap/Github</p>
+                    <p>- Tailwind CSS</p>
                 </div>
             </div>
         </div>
