@@ -17,7 +17,7 @@ const Profile = () => {
                 <div className="col-md-6">
                     <div className="intro-message">
                         <h3>Hi, I’m Uma Manandhar.</h3>
-                        <h4>I am a Software Engineer, former Math Teacher & Graphic Designer.</h4>
+                        <h4>I am a Software Engineer, Graphic Designer & former Math Teacher.</h4>
                         <h5>My expertise includes JavaScript, React, and Ruby on Rails.</h5>
                         <button className="btn btn-success ml-auto mr-1" onClick={() => setInfo(!info)}>Contact Info</button>
                         {info ? 
@@ -25,7 +25,7 @@ const Profile = () => {
                                 <i className="fas fa-sort-up"></i>
                                 <ul>
                                     <li><i className="fas fa-inbox"></i> uma.manandhar.s@gmail.com</li><hr/>
-                                    <li><i className="fas fa-phone-alt"></i> 617.309.0676</li><hr />
+                                    <li><i className="fas fa-phone-alt"></i> 781.353.9763 </li><hr />
                                     <li><i className="fas fa-map-marker-alt"></i> Boston, MA, 02151</li>     
                                 </ul>
                             </div> 
