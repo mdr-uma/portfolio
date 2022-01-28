@@ -2,7 +2,7 @@ import emailjs from 'emailjs-com'
 import React from 'react'
 import Button from './Button'
 
-export default class extends React.Component {
+export default class Contact extends React.Component {
     constructor(props) {
     super(props)
 	this.state = { 
